@@ -6,3 +6,30 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+:root {
+  --primary-color-green: #495E57;
+  --primary-color-yellow: #F4CE14;
+  --secondary-color-orange-dark: #EE9972;
+  --secondary-color-orange-light: #FBDABB;
+  --secondary-color-ash: #EDEFEE;
+  --secondary-color-black: #333333;
+  --secondary-color-gray: #616161;
+  --btn-border: 10px;
+  --img-border: 20px;
+  --primary-padding: 10px 200px;
+  --primary-title-font: 64px medium;
+  --primary-subtitle-font: 40px normal;
+  --secondary-title-font: 64px bold;
+  --cta-font: 18px medium #333333;
+
+}
+
+.primary-button {
+  background-color: var(--secondary-color);
+  border-radius: var(--btn-border);
+  padding: 10px 25px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
