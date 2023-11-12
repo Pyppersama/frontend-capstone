@@ -11,9 +11,51 @@ nav ul {
 }
 nav ul li{
     list-style-type: none;
-    margin-left: 50px;
+    margin-right: 50px;
 }
 nav ul li a{
     text-decoration: none;
     font: var(--cta-font);
+}
+
+
+header{
+    padding: var(--primary-padding);
+    background-color: var(--primary-color-green);
+    color: var(--secondary-color-ash);
+    position: relative;
+}
+.header-inner{
+    width: 500px;
+    padding: 30px 0;
+}
+.header-inner h1{
+    font: var(--primary-title-font);
+    color: var(--primary-color-yellow);
+    margin: 0;
+}
+.header-inner h3{
+    font: var(--primary-subtitle-font);
+    margin: 0;
+}
+.header-inner p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.header-inner a{
+    text-decoration: none;
+    color: var(--secondary-color-black);
+}
+.header-img{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    right: 250px;
+    top: 40px;
+}
+.header-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: var(--img-border);
 }

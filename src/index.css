@@ -17,19 +17,19 @@ body {
   --btn-border: 10px;
   --img-border: 20px;
   --primary-padding: 10px 200px;
-  --primary-title-font: 64px medium;
+  --primary-title-font: 64px bold;
   --primary-subtitle-font: 40px normal;
   --secondary-title-font: 64px bold;
   --cta-font: 18px medium #333333;
 
 }
 
-.primary-button {
-  background-color: var(--secondary-color);
+.primary-btn {
+  background-color: var(--primary-color-yellow);
   border-radius: var(--btn-border);
   padding: 10px 25px;
   border: none;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
 }
