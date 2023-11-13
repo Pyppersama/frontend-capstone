@@ -120,3 +120,31 @@ a{
 .item-description a{
     font-weight: 600;
 }
+
+
+footer{
+    padding: var(--primary-padding);
+    background-color: var(--primary-color-green);
+    color: var(--secondary-color-ash);
+}
+.footer-inner{
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    place-items: center;
+    text-align: center;
+}
+.footer-image{
+    height: 150px;
+    width: 100px;
+    /* display: flex;
+    justify-content: center; */
+}
+.footer-image img{
+    width: 100%;
+    height: 100%;
+}
+.footer-inner h5, .footer-inner p{
+    margin: 10px;
+}
