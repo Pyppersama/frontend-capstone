@@ -19,7 +19,7 @@ body {
   --primary-padding: 10px 200px;
   --primary-title-font: 64px bold;
   --primary-subtitle-font: 40px normal;
-  --secondary-title-font: 64px bold;
+  --secondary-title-font: 40px bolder;
   --cta-font: 18px medium #333333;
 
 }
@@ -32,4 +32,5 @@ body {
   font-size: 15px;
   font-weight: 700;
   cursor: pointer;
+  color: var(--secondary-color-black);
 }
