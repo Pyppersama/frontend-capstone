@@ -21,7 +21,6 @@ body {
   --primary-subtitle-font: 40px normal;
   --secondary-title-font: 40px bolder;
   --cta-font: 18px medium #333333;
-
 }
 
 .primary-btn {
@@ -33,4 +32,28 @@ body {
   font-weight: 700;
   cursor: pointer;
   color: var(--secondary-color-black);
+}
+
+@media only screen and (max-width: 1200px){
+  :root {
+    --primary-padding: 10px 100px;
+  
+  }
+}
+
+
+@media only screen and (max-width: 1024px){
+  :root {
+    --primary-padding: 10px 50px;
+  }
+}
+
+
+@media only screen and (max-width: 960px){
+  :root {
+    --primary-title-font: 54px bold;
+    --primary-subtitle-font: 30px normal;
+    --secondary-title-font: 30px bolder;
+    --cta-font: 14px medium #333333;
+  }
 }
