@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
 import HeaderImage from '../Assets/restauranfood.jpg'
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
@@ -11,9 +12,9 @@ function Header() {
             <p>
                 We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.
             </p>
-            <a href='#' className='primary-btn'>
-                Start Free Trial
-            </a>
+            <Link to='/Reservation' className='primary-btn'>
+                Reserve a Table
+            </Link>
             <div className='header-img'>
                 <img src={HeaderImage} alt='header-food-image'/>
             </div>

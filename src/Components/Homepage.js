@@ -1,12 +1,19 @@
 import React from 'react'
-import Header from './Header';
+import { Route, Routes } from 'react-router-dom';
 import Main from './Main';
 
 function Homepage() {
   return (
     <>
-        <Header />
-        <Main />
+    <Routes>
+      <Route 
+        path='*' 
+        element=
+          {
+              <Main />
+          }
+      />
+    </Routes>
     </>
   )
 }

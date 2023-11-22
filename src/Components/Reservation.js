@@ -1,9 +1,18 @@
 import React from 'react'
 import './style.css'
+import ReservationForm from './ReservationForm'
 
-function Reservation() {
+
+function Reservation(props) {
+
   return (
-    <div>Reservation</div>
+    <>
+        <ReservationForm
+          availableTimes={props.availableTimes}
+          dispatch={props.dispatch}
+          submitForm={props.submitForm}
+        />
+    </>
   )
 }
 

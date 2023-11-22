@@ -124,8 +124,8 @@ a{
 
 footer{
     padding: var(--primary-padding);
-    background-color: var(--primary-color-green);
-    color: var(--secondary-color-ash);
+    background-color: var(--secondary-color-ash);
+    color: var(--primary-color-green);
 }
 .footer-inner{
     padding: 20px 0;
@@ -147,6 +147,18 @@ footer{
 }
 .footer-inner h5, .footer-inner p{
     margin: 10px;
+}
+
+
+
+fieldset{
+    border: 2px solid var(--secondary-color-black);
+    padding: 50px 20px;
+}
+
+
+.confirmRes span{
+    color: var(--primary-color-green);
 }
 
 @media only screen and (max-width: 1200px){
